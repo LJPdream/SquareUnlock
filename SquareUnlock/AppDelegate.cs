@@ -1,4 +1,5 @@
 ﻿using Foundation;
+using SquareUnlock.controller;
 using UIKit;
 
 namespace SquareUnlock
@@ -21,6 +22,17 @@ namespace SquareUnlock
         {
             // Override point for customization after application launch.
             // If not required for your application you can safely delete this method
+
+            Window = new UIWindow(UIScreen.MainScreen.Bounds);
+            Window.RootViewController = new UnlockUIViewController();
+            Window.BackgroundColor = UIColor.White;
+            // If you have defined a root view controller, set it here:
+            //Window.RootViewController = myViewController;
+            UINavigationController nav = new UINavigationController(new UnlockUIViewController() /*new Fucai.Ios.Controller.Me.WorkSignViewController()*/);
+            Window.RootViewController = nav;
+
+            // make the window visible
+            Window.MakeKeyAndVisible();
 
             return true;
         }

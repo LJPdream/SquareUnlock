@@ -1,0 +1,13 @@
+E:\vs_projects\SquareUnlock\SquareUnlock\bin\iPhoneSimulator\Debug\SquareUnlock.exe
+E:\vs_projects\SquareUnlock\SquareUnlock\bin\iPhoneSimulator\Debug\SquareUnlock.pdb
+E:\vs_projects\SquareUnlock\SquareUnlock\bin\iPhoneSimulator\Debug\Masonry.dll
+E:\vs_projects\SquareUnlock\SquareUnlock\obj\iPhoneSimulator\Debug\ibtool\_BundleResourceWithLogicalName.items
+E:\vs_projects\SquareUnlock\SquareUnlock\obj\iPhoneSimulator\Debug\actool\_PartialAppManifest.items
+E:\vs_projects\SquareUnlock\SquareUnlock\obj\iPhoneSimulator\Debug\actool\_BundleResourceWithLogicalName.items
+E:\vs_projects\SquareUnlock\SquareUnlock\obj\iPhoneSimulator\Debug\optimized\Entitlements.plist
+E:\vs_projects\SquareUnlock\SquareUnlock\obj\iPhoneSimulator\Debug\optimized\
+E:\vs_projects\SquareUnlock\SquareUnlock\obj\iPhoneSimulator\Debug\SquareUnlock.csprojResolveAssemblyReference.cache
+E:\vs_projects\SquareUnlock\SquareUnlock\obj\iPhoneSimulator\Debug\SquareUnlock.exe
+E:\vs_projects\SquareUnlock\SquareUnlock\obj\iPhoneSimulator\Debug\SquareUnlock.pdb
+E:\vs_projects\SquareUnlock\SquareUnlock\obj\iPhoneSimulator\Debug\optimized\image\gesture_node_highlighted.png
+E:\vs_projects\SquareUnlock\SquareUnlock\obj\iPhoneSimulator\Debug\optimized\image\gesture_node_normal.png
