@@ -38,9 +38,12 @@ namespace SquareUnlock.view
             {
                 UIButton button = new UIButton();
                 button.Tag = i;
+                //未选中时的图片，即默认状态，UIControlState表示状态
                 button.SetBackgroundImage(UIImage.FromBundle("image/gesture_node_normal"), UIControlState.Normal);
+                //选中时的图片
                 button.SetBackgroundImage(UIImage.FromBundle("image/gesture_node_highlighted"), UIControlState.Selected);
-                button.UserInteractionEnabled = false;
+                //视图是否响应用户交互事件
+                //button.UserInteractionEnabled = false;
                 this.AddSubview(button);
                 buttonArray.Add(button);
             }
