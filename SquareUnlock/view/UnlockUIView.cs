@@ -43,12 +43,13 @@ namespace SquareUnlock.view
                 //选中时的图片
                 button.SetBackgroundImage(UIImage.FromBundle("image/gesture_node_highlighted"), UIControlState.Selected);
                 //视图是否响应用户交互事件
-                //button.UserInteractionEnabled = false;
+                button.UserInteractionEnabled = false;
                 this.AddSubview(button);
                 buttonArray.Add(button);
             }
         }
 
+        //布局addSubview触发该方法
         public override void LayoutSubviews()
         {
             nfloat width = 74;
@@ -68,6 +69,8 @@ namespace SquareUnlock.view
         {
             if (lineArray.Count == 0)
                 return;
+
+            //贝塞尔曲线
             UIBezierPath path = new UIBezierPath();
 
             for (int i = 0; i < lineArray.Count; i++)
